@@ -24,7 +24,7 @@ import ru.chernakov.lorempictures.presentation.model.PostItem;
 import ru.chernakov.lorempictures.presentation.presenter.FeedPresenter;
 import ru.chernakov.lorempictures.presentation.view.FeedView;
 import ru.chernakov.lorempictures.presentation.view.adapter.BaseAdapter;
-import ru.chernakov.lorempictures.presentation.view.adapter.ProductGridItemDecoration;
+import ru.chernakov.lorempictures.presentation.view.adapter.ListItemDecoration;
 
 public class FeedFragment extends BaseFragment implements FeedView {
 
@@ -68,7 +68,7 @@ public class FeedFragment extends BaseFragment implements FeedView {
 		mProductGrid.setBackground(getContext().getDrawable(R.drawable.shape_list_background));
 		int largePadding = getResources().getDimensionPixelSize(R.dimen.list_spacing_large);
 		int smallPadding = getResources().getDimensionPixelSize(R.dimen.list_spacing_small);
-		mList.addItemDecoration(new ProductGridItemDecoration(largePadding, smallPadding));
+		mList.addItemDecoration(new ListItemDecoration(largePadding, smallPadding));
 
 		return v;
 	}
