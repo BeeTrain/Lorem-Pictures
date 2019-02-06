@@ -37,7 +37,7 @@ public class PostAdapterDelegate extends AdapterDelegate<List<PostItem>> {
 	@NonNull
 	@Override
 	protected RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent) {
-		return new PostViewHolder(mInflater.inflate(R.layout.item_post, parent, false));
+		return new PostViewHolder(mInflater.inflate(R.layout.list_item_post, parent, false));
 	}
 
 	@Override

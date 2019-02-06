@@ -3,4 +3,10 @@
 <resources>
 	<string name="app_name">Lorem Pictures</string>
 	<string name="content_description">-</string>
+
+	<!--Navigation menu-->
+	<string name="navigation_about">about</string>
+	<string name="navigation_favorites">favorites</string>
+	<string name="navigation_feed">feed</string>
+
 </resources>

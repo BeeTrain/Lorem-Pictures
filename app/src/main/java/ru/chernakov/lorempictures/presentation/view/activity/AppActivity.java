@@ -15,7 +15,7 @@ public class AppActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 
 		if (savedInstanceState == null) {
-			AppScreen screen = new AppScreen(AppScreen.FEED_FRAGMENT_TAG);
+			AppScreen screen = new AppScreen(AppScreen.FLOW_FRAGMENT_TAG);
 			mNavigator.applyCommands(new Command[]{new Replace(screen)});
 		}
 	}
