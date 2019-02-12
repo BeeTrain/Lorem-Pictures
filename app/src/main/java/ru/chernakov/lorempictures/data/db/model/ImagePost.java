@@ -26,7 +26,7 @@ public class ImagePost extends BaseModel {
 	@Column(name = "width")
 	private int width;
 
-	@Column (name = "height")
+	@Column(name = "height")
 	private int height;
 
 	@Column(name = "author")
@@ -37,6 +37,10 @@ public class ImagePost extends BaseModel {
 
 	@Column(name = "postUrl")
 	private String postUrl;
+
+	public ImagePost() {
+
+	}
 
 	public ImagePost(int id, String filename, String format,
 					 int width, int height, String author, String authorUrl, String postUrl) {
